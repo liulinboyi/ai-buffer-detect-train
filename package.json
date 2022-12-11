@@ -1,0 +1,27 @@
+{
+  "name": "ai-buffer-detect-train",
+  "version": "0.0.1",
+  "description": "a machine learning for buffer file encoding detect",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/predict.js",
+    "generate": "node ./src/generateDate.js",
+    "fs": "node ./src/fs.js",
+    "train": "node ./src/index-try-gpu.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "parcel": "^2.8.0",
+    "@tensorflow/tfjs": "^4.1.0",
+    "@tensorflow/tfjs-node": "^4.1.0",
+    "@tensorflow/tfjs-node-gpu": "^4.1.0",
+    "lodash": "^4.17.21"
+  },
+  "browserslist": [
+    "last 1 chrome version"
+  ]
+}
